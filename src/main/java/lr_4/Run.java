@@ -1,7 +1,7 @@
-package lr_3;
+package lr_4;
 
-import lr_3.Controllers.*;
-import lr_3.Models.*;
+import lr_4.Controllers.*;
+import lr_4.Models.*;
 
 import java.util.Arrays;
 
