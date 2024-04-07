@@ -1,17 +1,17 @@
-package lr_3_4.Models;
+package lr_3.Models;
 
 import java.util.List;
 import java.util.Objects;
 
-public class Department {
+public class Group {
 	private String name;
     private Human leader;
-    private List<Group> groups;
+    private List<Student> students;
 
-    public Department(String name, Human leader, List<Group> groups) {
+    public Group(String name, Human leader, List<Student> students) {
         this.name = name;
         this.leader = leader;
-        this.groups = groups;
+        this.students = students;
     }
 	
 	public String getName() {
@@ -22,8 +22,8 @@ public class Department {
         return leader;
     }
 	
-    public List<Group> getGroups() {
-        return groups;
+    public List<Student> getStudents() {
+        return students;
     }
 	
     public void setName(String name) {
@@ -34,13 +34,13 @@ public class Department {
         this.leader = leader;
     }
 
-    public void setGroups(List<Group> groups) {
-        this.groups = groups;
+    public void setStudents(List<Student> students) {
+        this.students = students;
     }
 
     @Override
     public String toString() {
-        return String.format("Department %s with leader %s\nGroups:\n%s\n", name, leader.toString(), groups.toString());
+        return String.format("Group %s with leader {%s}\nStudents:\n%s\n", name, leader.toString(), students.toString());
     }
 
     @Override
@@ -48,14 +48,14 @@ public class Department {
         if (this == o) return true;
         if (!(o instanceof Group)) return false;
 		
-        Department department = (Department) o;
-        return name == department.name &&
-                leader.equals(department.leader) &&
-                groups.equals(department.groups);
+        Group group = (Group) o;
+        return name == group.name &&
+                leader.equals(group.leader) &&
+                students.equals(group.students);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, leader, groups);
+        return Objects.hash(name, leader, students);
     }
 }

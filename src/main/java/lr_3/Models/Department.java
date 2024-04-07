@@ -1,17 +1,17 @@
-package lr_3_4.Models;
+package lr_3.Models;
 
 import java.util.List;
 import java.util.Objects;
 
-public class Group {
+public class Department {
 	private String name;
     private Human leader;
-    private List<Student> students;
+    private List<Group> groups;
 
-    public Group(String name, Human leader, List<Student> students) {
+    public Department(String name, Human leader, List<Group> groups) {
         this.name = name;
         this.leader = leader;
-        this.students = students;
+        this.groups = groups;
     }
 	
 	public String getName() {
@@ -22,8 +22,8 @@ public class Group {
         return leader;
     }
 	
-    public List<Student> getStudents() {
-        return students;
+    public List<Group> getGroups() {
+        return groups;
     }
 	
     public void setName(String name) {
@@ -34,13 +34,13 @@ public class Group {
         this.leader = leader;
     }
 
-    public void setStudents(List<Student> students) {
-        this.students = students;
+    public void setGroups(List<Group> groups) {
+        this.groups = groups;
     }
 
     @Override
     public String toString() {
-        return String.format("Group %s with leader {%s}\nStudents:\n%s\n", name, leader.toString(), students.toString());
+        return String.format("Department %s with leader %s\nGroups:\n%s\n", name, leader.toString(), groups.toString());
     }
 
     @Override
@@ -48,14 +48,14 @@ public class Group {
         if (this == o) return true;
         if (!(o instanceof Group)) return false;
 		
-        Group group = (Group) o;
-        return name == group.name &&
-                leader.equals(group.leader) &&
-                students.equals(group.students);
+        Department department = (Department) o;
+        return name == department.name &&
+                leader.equals(department.leader) &&
+                groups.equals(department.groups);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, leader, students);
+        return Objects.hash(name, leader, groups);
     }
 }

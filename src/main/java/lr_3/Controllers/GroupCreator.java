@@ -1,8 +1,8 @@
-package lr_3_4.Controllers;
+package lr_3.Controllers;
 
-import lr_3_4.Models.Student;
-import lr_3_4.Models.Group;
-import lr_3_4.Models.Human;
+import lr_3.Models.Student;
+import lr_3.Models.Group;
+import lr_3.Models.Human;
 
 import java.util.ArrayList;
 import java.util.List;

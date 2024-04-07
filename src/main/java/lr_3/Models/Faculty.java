@@ -1,4 +1,4 @@
-package lr_3_4.Models;
+package lr_3.Models;
 
 import java.util.List;
 import java.util.Objects;

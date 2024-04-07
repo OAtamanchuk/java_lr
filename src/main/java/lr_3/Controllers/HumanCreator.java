@@ -1,7 +1,7 @@
-package lr_3_4.Controllers;
+package lr_3.Controllers;
 
-import lr_3_4.Models.Sex;
-import lr_3_4.Models.Human;
+import lr_3.Models.Sex;
+import lr_3.Models.Human;
 
 public class HumanCreator {
     public Human createHuman(String name, String surname, String patronymic, Sex sex) {

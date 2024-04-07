@@ -1,4 +1,4 @@
-package lr_3_4.Models;
+package lr_3.Models;
 
 public enum Sex {
     MALE,
