@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="277c6693-9490-4fbe-8714-433f21902bfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lr_2.java" afterDir="false" />
+    <list default="true" id="277c6693-9490-4fbe-8714-433f21902bfa" name="Changes" comment="Add json class to write and read university.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +40,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Run.executor": "Run",
     "Application.lr_2.executor": "Run",
+    "JUnit.UniversityTest.jsonManager_WriteUniversityToJsonAndRead_ShouldBeIdentical.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lr__2",
+    "git-widget-placeholder": "lr__4",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +56,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="UniversityTest.jsonManager_WriteUniversityToJsonAndRead_ShouldBeIdentical" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java_lr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lr_4.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lr_4.Tests" />
+      <option name="MAIN_CLASS_NAME" value="lr_4.Tests.UniversityTest" />
+      <option name="METHOD_NAME" value="jsonManager_WriteUniversityToJsonAndRead_ShouldBeIdentical" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UniversityTest.jsonManager_WriteUniversityToJsonAndRead_ShouldBeIdentical" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -72,10 +97,60 @@
       <workItem from="1710687439699" duration="633000" />
       <workItem from="1710955469301" duration="465000" />
       <workItem from="1711378798628" duration="3968000" />
+      <workItem from="1712570305490" duration="1566000" />
     </task>
+    <task id="LOCAL-00001" summary="Rename folder.">
+      <option name="closed" value="true" />
+      <created>1712533075957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533075957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Copy folder from lr 3 to complete lr 4.">
+      <option name="closed" value="true" />
+      <created>1712533260744</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533260744</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix errors.">
+      <option name="closed" value="true" />
+      <created>1712533416629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533416629</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add dependencies.">
+      <option name="closed" value="true" />
+      <created>1712533486183</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712533486183</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add json class to write and read university.">
+      <option name="closed" value="true" />
+      <created>1712570457657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712570457657</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rename folder." />
+    <MESSAGE value="Copy folder from lr 3 to complete lr 4." />
+    <MESSAGE value="Fix errors." />
+    <MESSAGE value="Add dependencies." />
+    <MESSAGE value="Add json class to write and read university." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add json class to write and read university." />
   </component>
 </project>
